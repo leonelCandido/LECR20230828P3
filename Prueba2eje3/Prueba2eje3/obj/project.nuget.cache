@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GQqV6k6KGJCpwuRWX/0fCWRWCqFZnmFUpiWuwF1RJclrEBTJebwqrb/14JIL3uhBNqW2iV+KehbGsWFIQ0T8Nw==",
+  "dgSpecHash": "Jew5udTdQ7rFyS9hwY1P0gF+I5zlGrQF0FVVoPdjl2JOnBzbTTBxI4xI6rS5iUS1y26k2/vIfswj2d4O2XDcig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leo\\source\\repos\\Prueba2eje3\\Prueba2eje3\\Prueba2eje3.csproj",
+  "projectFilePath": "C:\\Users\\Leo\\source\\repos\\LECR20230828P3\\Prueba2eje3\\Prueba2eje3\\Prueba2eje3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Leo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

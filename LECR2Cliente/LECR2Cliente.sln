@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LECR2Cliente", "LECR2Cliente\LECR2Cliente.csproj", "{8E59CA3B-2DEE-487F-B2B0-74DC069B6AB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E59CA3B-2DEE-487F-B2B0-74DC069B6AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E59CA3B-2DEE-487F-B2B0-74DC069B6AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E59CA3B-2DEE-487F-B2B0-74DC069B6AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E59CA3B-2DEE-487F-B2B0-74DC069B6AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DBF3AF6-583E-4616-9444-6982AFC5E6CD}
+	EndGlobalSection
+EndGlobal
