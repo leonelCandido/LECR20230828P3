@@ -1,0 +1,7 @@
+C:\Users\Leo\source\repos\LECR20230828P3\LECRP4E1\LECRP4E1\obj\Debug\net6.0\LECRP4E1.csproj.AssemblyReference.cache
+C:\Users\Leo\source\repos\LECR20230828P3\LECRP4E1\LECRP4E1\obj\Debug\net6.0\LECRP4E1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leo\source\repos\LECR20230828P3\LECRP4E1\LECRP4E1\obj\Debug\net6.0\LECRP4E1.AssemblyInfoInputs.cache
+C:\Users\Leo\source\repos\LECR20230828P3\LECRP4E1\LECRP4E1\obj\Debug\net6.0\LECRP4E1.AssemblyInfo.cs
+C:\Users\Leo\source\repos\LECR20230828P3\LECRP4E1\LECRP4E1\obj\Debug\net6.0\LECRP4E1.csproj.CoreCompileInputs.cache
+C:\Users\Leo\source\repos\LECR20230828P3\LECRP4E1\LECRP4E1\obj\Debug\net6.0\LECRP4E1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Leo\source\repos\LECR20230828P3\LECRP4E1\LECRP4E1\obj\Debug\net6.0\LECRP4E1.MvcApplicationPartsAssemblyInfo.cache
