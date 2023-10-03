@@ -1,26 +1,28 @@
-﻿namespace LECRP4E1.EndPoints
+﻿using LECRP4E1.Modelo;
+
+namespace LECRP4E1.EndPoints
  
   
 {
     public static class CategoriaProductoEndPoint
     {
-        static List<object> data = new List<object>();
+        static List<Categoria> categorias = new List<Categoria>();
 
 
-        public static void AddTestEndpoints(this WebApplication app)
+        public static void AddCategoriaProductoEndpoints(this WebApplication app)
         {
-            app.MapGet("/test", () =>
+            app.MapGet("/Categoria", () =>
             {
 
 
-                return data;
+                return categorias;
             }).AllowAnonymous();
 
 
 
-            app.MapPost("/test", (string name, string lastName) =>
+            app.MapPost("/Categoria", (Categoria categoria) =>
             {
-                data.Add(new { name, lastName });
+                categorias.Add(categoria);
 
                 return Results.Ok();
             }).RequireAuthorization();

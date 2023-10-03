@@ -1,35 +1,56 @@
-﻿namespace LECRP4E1.EndPoints
+﻿using LECRP4E1.Modelo;
 
-    public static class ProtectedEndPoint
+namespace LECRP4E1.EndPoints
+{
+
+    public static class BodegaEndPoint
     {
 
-        
-        static List<object> data = new List<object>();
+
+        static List<Bodega> bodegas = new List<Bodega>();
 
 
 
-        public static void AddProtectedEndPoints(this WebApplication app)
+        public static void AddBodegaEndPoints(this WebApplication app)
         {
 
-            app.MapGet("/protected",()=>
+
+            app.MapPost("/bodega", (Bodega bodega) =>
             {
-
-
-                return data;
-            }).RequireAuthorization();
-
-
-            app.MapPost("/protected", (string name, string lasName) =>
-            {
-
-
-                data.Add(new { name, lasName });
-
-
+                bodegas.Add(bodega);
 
                 return Results.Ok();
             }).RequireAuthorization();
-        }
 
+
+            app.MapGet("/api/bodega/{id}", (int id) =>
+                {
+                    var bodega = bodegas.Find(p => p.Id == id);
+
+                    if (bodega == null)
+                    {
+                        return Results.NotFound(); 
+                    }
+
+                    return Results.Ok(bodega); 
+                }).RequireAuthorization();
+
+
+            app.MapPut("/bodega/{id}", (int id, Bodega bodega) =>
+            {
+                var existingBodega = bodegas.FirstOrDefault(p => p.Id == id);
+                if (existingBodega != null)
+                {
+                    
+                    existingBodega.Name = bodega.Name;
+
+                    return Results.Ok(); 
+                }
+                else
+                {
+                    return Results.NotFound(); 
+                }
+            }).RequireAuthorization();
+        }
     }
 }
